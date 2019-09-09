@@ -6,8 +6,8 @@ def main():
     y = random.randint(1,101)
     print(x)
     print(y)
-    print("Sum = ", x+y)
-    print("Average = ", x+y/2)
+    print("Sum = ", str(x+y))
+    print("Average = ", str(x+y/2))
 
 
 if __name__ == '__main__':
